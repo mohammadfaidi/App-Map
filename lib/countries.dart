@@ -75,8 +75,8 @@ Widget build(BuildContext context){
                         elevation: 4,
                         margin: EdgeInsets.symmetric(vertical: 10),
                         child: ListTile(
-                          
-                          title: Text(countries[index]['name']),
+                          trailing: Icon(Icons.favorite,color: Colors.black,),
+                          title: Text(countries[index]['name'],style: TextStyle(fontWeight: FontWeight.bold),),
                          // subtitle: Text(
                            //   '${_foundUsers[index]["age"].toString()} years old'),
                         ),
